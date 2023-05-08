@@ -21,7 +21,7 @@ const Registro = () => {
   
    
     // Se envía una petición POST al servidor con los valores del formulario
-    const data = await fetch("https://backend-node-omega.vercel.app/guardado", {
+    const data = await fetch("https://167.71.25.235:9090/guardado", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
